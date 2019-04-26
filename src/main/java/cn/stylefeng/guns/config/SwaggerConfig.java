@@ -51,9 +51,9 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("orangehaswing Doc")
-                .description("orangehaswing Api文档")
-                .termsOfServiceUrl("https://github.com/")
+                .title("OrangeHasWing Doc")
+                .description("orangehaswing的API文档")
+                .termsOfServiceUrl("https://github.com/orangehaswing/gun/")
                 .contact("orangehaswing")
                 .version("1.0")
                 .build();

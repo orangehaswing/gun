@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS guns;
-CREATE DATABASE IF NOT EXISTS guns DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
+DROP DATABASE IF EXISTS RISE;
+CREATE DATABASE IF NOT EXISTS RISE DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 
-USE guns;
+USE RISE;
 
 /*
  Navicat MySQL Data Transfer
@@ -248,8 +248,8 @@ CREATE TABLE `sys_notice`  (
 -- ----------------------------
 -- Records of sys_notice
 -- ----------------------------
-INSERT INTO `sys_notice`(`NOTICE_ID`, `TITLE`, `CONTENT`, `CREATE_TIME`, `CREATE_USER`, `UPDATE_TIME`, `UPDATE_USER`) VALUES (6, '欢迎', 'hi，Guns旗舰版发布了！', '2017-01-11 08:53:20', 1, '2018-12-28 23:24:48', 1);
-INSERT INTO `sys_notice`(`NOTICE_ID`, `TITLE`, `CONTENT`, `CREATE_TIME`, `CREATE_USER`, `UPDATE_TIME`, `UPDATE_USER`) VALUES (8, '你好', '你好，世界！', '2017-05-10 19:28:57', 1, '2018-12-28 23:28:26', 1);
+INSERT INTO `sys_notice`(`NOTICE_ID`, `TITLE`, `CONTENT`, `CREATE_TIME`, `CREATE_USER`, `UPDATE_TIME`, `UPDATE_USER`) VALUES (6, 'Welcome', 'Hi，RISE管理系统发布！', '2019-01-01 08:53:20', 1, '2019-01-01 23:24:48', 1);
+INSERT INTO `sys_notice`(`NOTICE_ID`, `TITLE`, `CONTENT`, `CREATE_TIME`, `CREATE_USER`, `UPDATE_TIME`, `UPDATE_USER`) VALUES (8, 'Hello', 'Hello,World！', '2019-05-10 19:28:57', 1, '2019-01-01 23:28:26', 1);
 
 
 -- ----------------------------
@@ -414,7 +414,7 @@ CREATE TABLE `sys_role`  (
 -- Records of sys_role
 -- ----------------------------
 INSERT INTO `sys_role` VALUES (1, 0, '超级管理员', 'administrator', 1, 1, NULL, NULL, NULL, NULL);
-INSERT INTO `sys_role` VALUES (5, 1, '临时', 'temp', 2, NULL, NULL, NULL, NULL, NULL);
+INSERT INTO `sys_role` VALUES (5, 1, '临时用户', 'temp', 2, NULL, NULL, NULL, NULL, NULL);
 
 -- ----------------------------
 -- Table structure for sys_user
@@ -445,6 +445,6 @@ CREATE TABLE `sys_user`  (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user`(`USER_ID`, `AVATAR`, `ACCOUNT`, `PASSWORD`, `SALT`, `NAME`, `BIRTHDAY`, `SEX`, `EMAIL`, `PHONE`, `ROLE_ID`, `DEPT_ID`, `STATUS`, `CREATE_TIME`, `CREATE_USER`, `UPDATE_TIME`, `UPDATE_USER`, `VERSION`) VALUES (1, '1', 'admin', '1d6b1208c7d151d335790276a18e3d99', 'q6taw', 'stylefeng', '2018-11-16 00:00:00', 'M', 'sn93@qq.com', '18200000000', '1', 27, 'ENABLE', '2016-01-29 08:49:53', NULL, '2018-12-28 22:52:24', 24, 25);
+INSERT INTO `sys_user`(`USER_ID`, `AVATAR`, `ACCOUNT`, `PASSWORD`, `SALT`, `NAME`, `BIRTHDAY`, `SEX`, `EMAIL`, `PHONE`, `ROLE_ID`, `DEPT_ID`, `STATUS`, `CREATE_TIME`, `CREATE_USER`, `UPDATE_TIME`, `UPDATE_USER`, `VERSION`) VALUES (1, '1', 'admin', '1d6b1208c7d151d335790276a18e3d99', 'q6taw', 'orangehasiwng', '2019-05-01 00:00:00', 'M', '673556024@qq.com', '18852003002', '1', 27, 'ENABLE', '2019-01-29 08:49:53', NULL, '2018-05-01 22:52:24', 24, 25);
 
 SET FOREIGN_KEY_CHECKS = 1;

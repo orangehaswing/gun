@@ -32,12 +32,17 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  * @Date 2017/5/21 12:06
  */
 @SpringBootApplication(exclude = {WebAutoConfiguration.class, GeneratorAutoConfiguration.class})
-public class GunsApplication  {
+public class GunsApplication extends SpringBootServletInitializer {
 
     private final static Logger logger = LoggerFactory.getLogger(GunsApplication.class);
 
     public static void main(String[] args) {
         SpringApplication.run(GunsApplication.class, args);
-        logger.info("orangehaswing Application is success!");
+        logger.info("Application is success!");
+    }
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+        return builder.sources(GunsApplication.class);
     }
 }

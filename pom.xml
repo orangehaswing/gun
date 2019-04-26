@@ -9,12 +9,12 @@
         <version>2.0.1.RELEASE</version>
     </parent>
 
-    <groupId>cn.stylefeng.guns</groupId>
-    <artifactId>guns</artifactId>
+    <groupId>com.orangehaswing.rise</groupId>
+    <artifactId>rise</artifactId>
     <version>1.0.0</version>
 
-    <name>guns-admin</name>
-    <description>guns 的spring boot版本</description>
+    <name>rise-admin</name>
+    <description>rise的spring boot版本</description>
 
     <packaging>war</packaging>
 
