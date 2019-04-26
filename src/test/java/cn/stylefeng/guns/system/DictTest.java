@@ -1,8 +1,8 @@
 package cn.stylefeng.guns.system;
 
 import cn.stylefeng.guns.base.BaseJunit;
-import cn.stylefeng.guns.modular.system.mapper.DictMapper;
-import cn.stylefeng.guns.modular.system.service.DictService;
+import com.orangehaswing.rise.modular.system.mapper.DictMapper;
+import com.orangehaswing.rise.modular.system.service.DictService;
 import org.junit.Assert;
 import org.junit.Test;
 

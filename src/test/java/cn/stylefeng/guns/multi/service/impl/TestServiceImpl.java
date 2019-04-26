@@ -1,6 +1,6 @@
 package cn.stylefeng.guns.multi.service.impl;
 
-import cn.stylefeng.guns.core.common.constant.DatasourceEnum;
+import com.orangehaswing.rise.core.common.constant.DatasourceEnum;
 import cn.stylefeng.guns.multi.entity.Test;
 import cn.stylefeng.guns.multi.mapper.TestMapper;
 import cn.stylefeng.guns.multi.service.TestService;

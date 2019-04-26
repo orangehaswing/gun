@@ -1,8 +1,8 @@
 package cn.stylefeng.guns.system;
 
 import cn.stylefeng.guns.base.BaseJunit;
-import cn.stylefeng.guns.modular.system.entity.Menu;
-import cn.stylefeng.guns.modular.system.mapper.MenuMapper;
+import com.orangehaswing.rise.modular.system.entity.Menu;
+import com.orangehaswing.rise.modular.system.mapper.MenuMapper;
 import com.baomidou.mybatisplus.mapper.EntityWrapper;
 import com.baomidou.mybatisplus.mapper.Wrapper;
 import org.junit.Test;

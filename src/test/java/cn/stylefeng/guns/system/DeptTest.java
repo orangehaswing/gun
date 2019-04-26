@@ -1,8 +1,8 @@
 package cn.stylefeng.guns.system;
 
 import cn.stylefeng.guns.base.BaseJunit;
-import cn.stylefeng.guns.modular.system.entity.Dept;
-import cn.stylefeng.guns.modular.system.mapper.DeptMapper;
+import com.orangehaswing.rise.modular.system.entity.Dept;
+import com.orangehaswing.rise.modular.system.mapper.DeptMapper;
 import org.junit.Test;
 
 import javax.annotation.Resource;
